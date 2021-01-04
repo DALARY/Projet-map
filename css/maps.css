@@ -1,0 +1,40 @@
+head, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../icones/paysage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    margin: 2% 0 5% 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+#position {
+    display: flex;
+    justify-content: center;
+}
+#mapid { 
+    height: 600px;
+    width: 50%;
+}
+.leaflet-popup-content-wrapper {
+    background-color: #87ABFF;
+}
+.leaflet-popup-tip {
+	background: #87ABFF;
+	color: #333;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+.leaflet-container a.leaflet-popup-close-button {
+    color: #0095FF;
+}
+.leaflet-container a.leaflet-popup-close-button:hover {
+    color: #0D1BFF;
+}
